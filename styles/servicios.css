@@ -15,6 +15,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   gap: 2.87dvh;
   padding: 2.87dvh;
 }
@@ -52,6 +53,8 @@
 .productos__descripcion {
   text-align: center;
   font-size: 1.125rem;
+  padding-left: 1.438dvh;
+  padding-right: 1.438dvh;
 }
 
 .productos__precio {
@@ -69,4 +72,52 @@
 
 #catering__imagen {
   height: 57.5dvh;
+}
+
+@media (width <= 390px) {
+  .banners__contenedor {
+    display: none;
+  }
+
+  .servicios__card-imagen-contenedor {
+    height: 30dvh;
+  }
+
+  #catering__imagen {
+    height: 42dvh;
+  }
+
+  #catering__card {
+    height: 135dvh;
+  }
+}
+@media (width > 390px) and (width <= 515px) {
+  .banners__contenedor {
+    display: none;
+  }
+
+  .servicios__card-imagen-contenedor {
+    height: 35dvh;
+  }
+
+  #catering__imagen {
+    height: 50dvh;
+  }
+
+  #catering__card {
+    height: 140dvh;
+    padding-left: 5dvh;
+    padding-right: 5dvh;
+  }
+}
+@media (width > 515px) and (width <= 830px) {
+  #catering__card {
+    height: 130dvh;
+    padding-left: 5dvh;
+    padding-right: 5dvh;
+  }
+
+  #catering__descripcion {
+    margin-top: 6dvh;
+  }
 }
