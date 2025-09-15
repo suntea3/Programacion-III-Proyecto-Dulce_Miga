@@ -1,7 +1,7 @@
-/**HEADER**/
+/**HEADER LISTO**/
 
 .titulo {
-  margin-top:  2.87dvh;
+  margin-top: 2.87dvh;
   margin-bottom: 8.63dvh;
   text-align: center;
 }
@@ -36,4 +36,37 @@
 
 .navegacion__links a:hover {
   border-bottom: 0.287dvh solid var(--color-destacados);
+}
+
+@media (width <= 600px) {
+  .contenedor-nombre-logo h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1.72dvh;
+  }
+  .contenedor-nombre-logo {
+    flex-direction: column;
+    border: 1px solid red;
+  }
+  .imagen {
+    width: 20dvh;
+    height: 20dvh;
+    margin-bottom: 1.72dvh;
+  }
+  .navegacion__links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.72dvh;
+  }
+}
+@media (width>600px) and (width<762.40px) {
+  .contenedor-nombre-logo h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.72dvh;
+  }
+  .imagen {
+    width: 20dvh;
+    height: 20dvh;
+  }
 }
