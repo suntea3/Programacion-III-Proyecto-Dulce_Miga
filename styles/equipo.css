@@ -26,7 +26,7 @@
 .contenedor-equipo {
   margin:  3.59dvh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2.87dvh;
   overflow-x: auto;
   padding: 2.87dvh;
@@ -67,4 +67,28 @@
 .contenedor-volver {
   text-align: center;
   margin:  4.31dvh 0;
+}
+
+@media (width <= 390px) {
+  .titulo-equipo {
+    font-size: 2.5rem;
+    margin: 1.438dvh;
+  }
+  .card-equipo {
+    flex: 0 0 28dvh;
+    padding: 1.438dvh;
+  }
+  .card-equipo img {
+    width: 12dvh;
+    height: 17dvh;
+    margin-bottom: 0.575dvh;
+  }
+  .card-equipo article h4 {
+    font-size: 1rem;
+    margin-top: 0.575dvh;
+  }
+  .card-equipo article p {
+    font-size: 0.875rem;
+    margin: 0.575dvh 0;
+  }
 }
