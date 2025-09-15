@@ -46,7 +46,6 @@
   }
   .contenedor-nombre-logo {
     flex-direction: column;
-    border: 1px solid red;
   }
   .imagen {
     width: 20dvh;
