@@ -1,0 +1,13 @@
+body {
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+  min-height: 150dvh;
+}
+
+/**MAIN**/
+
+main {
+  margin: 2.3dvh;
+  flex: 1;
+}

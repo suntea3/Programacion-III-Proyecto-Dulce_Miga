@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/central.css" />
+    <title>Contacto</title>
+  </head>
+  <body class="contacto-pagina">
+    <header id="contacto-header">
+      <h1 class="titulo">Contactanos!</h1>
+    </header>
+    <main>
+      <form action="#" method="get" class="formulario">
+        <fieldset class="formulario__datos">
+          <legend class="formulario__leyenda">Introduce tus datos</legend>
+          <div class="formulario__informacion">
+            <label for="nombre-pila">Nombre:</label>
+            <input
+              class="formulario__input"
+              type="text"
+              name="nombre-pila"
+              id="nombre-pila"
+              placeholder="Ej. Antonio"
+              autocomplete="name"
+              maxlength="50"
+              minlength="2"
+              required
+            />
+          </div>
+          <div class="formulario__informacion">
+            <label for="nombre-familiar">Apellido:</label>
+            <input
+              class="formulario__input"
+              type="text"
+              name="nombre-familiar"
+              id="nombre-familiar"
+              placeholder="Ej. Gonzalez"
+              autocomplete="family-name"
+              maxlength="50"
+              min="2"
+              required
+            />
+          </div>
+          <div class="formulario__informacion">
+            <label for="edad">Edad:</label>
+            <input
+              class="formulario__input"
+              type="number"
+              name="edad"
+              id="edad"
+              placeholder="21"
+              autocomplete="cc-number"
+              minlength="18"
+              maxlength="121"
+              required
+            />
+          </div>
+          <div class="formulario__informacion">
+            <label for="correo-electronico">Correo Electrónico:</label>
+            <input
+              class="formulario__input"
+              type="email"
+              name="correo-electronico"
+              id="correo-electronico"
+              placeholder="Ej. agonzalez@frsn.utn.edu.ar"
+              autocomplete="email"
+              minlength="10"
+              maxlength="75"
+              required
+            />
+          </div>
+          <div class="formulario__informacion">
+            <label for="telefono">Telefono (opcional):</label>
+            <input
+              class="formulario__input"
+              type="tel"
+              name="telefono"
+              id="telefono"
+              placeholder="Formato: 123-456-7890"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              maxlength="13"
+            />
+          </div>
+        </fieldset>
+        <fieldset class="formulario__comentarios">
+          <legend class="formulario__leyenda">Comentarios</legend>
+          <div class="formulario__informacion">
+            <label for="asunto-mensaje">Asunto:</label>
+            <br />
+            <input
+              class="formulario__input"
+              type="text"
+              name="asunto-mensaje"
+              id="asunto-mensaje"
+              placeholder="De que se trata su mensaje"
+              maxlength="30"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje:</label>
+            <br />
+            <textarea
+              class="formulario__informacion"
+              name="mensaje"
+              id="mensaje"
+              rows="15"
+              cols="45"
+              required
+            ></textarea>
+          </div>
+        </fieldset>
+        <div>
+          <button class="formulario__btn">Enviar</button>
+        </div>
+      </form>
+      <div class="contenedor-boton-volver">
+        <button class="volver"><a href="/index.html">Volver</a></button>
+      </div>
+    </main>
+    <footer>
+      <nav class="navegador-footer">
+        <h5>&copy; Derechos reservados Dulce-Miga S.R.L.</h5>
+        <ul class="navegador-footer__links">
+          <li>
+            Dirección: Calle de los Sabores 123, Barrio Dulzura, Ciudad Pastel,
+            CP 45678
+          </li>
+          <li>Teléfono: (011) 4567-8910</li>
+          <li>Email: contacto@dulcemiga.com</li>
+          <li>
+            <span class="navegador-footer__redes">
+              <a href="./">
+                <img
+                  src="./imagenes/logos/whatsapp.png"
+                  alt="Icono de Whatsapp"
+                  class="navegador-footer__imagen"
+                />
+              </a>
+              <a href="./">
+                <img
+                  src="./imagenes/logos/instagram.png"
+                  alt="Icono de Instagram"
+                  class="navegador-footer__imagen"
+                />
+              </a>
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+/**HEADER**/
+
+.titulo {
+  margin-top:  2.87dvh;
+  margin-bottom: 8.63dvh;
+  text-align: center;
+}
+.contenedor-nombre-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0dvh 1.72dvh;
+}
+.imagen {
+  width: 21.5dvh;
+  height: 21.5dvh;
+}
+
+.navegacion {
+  border: 0.143dvh solid black;
+  background-color: var(--color-fondo-alternativo);
+  padding: 1.15dvh 0dvh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.navegacion__links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.navegacion__links a {
+  text-decoration: none;
+}
+
+.navegacion__links a:hover {
+  border-bottom: 0.287dvh solid var(--color-destacados);
+}

@@ -1,0 +1,70 @@
+.titulo-equipo {
+  text-align: center;
+  margin: 2.87dvh;
+  font-size: 3rem;
+  color: var(--color-titulo);
+}
+
+.subtitulo-servicios {
+  color: var(--color-subtitulo);
+  font-size: 1.875rem;
+  text-align: center;
+  margin-top: 2.87dvh;
+  padding: 1.15dvh;
+}
+
+.subtitulo-equipo {
+  color: var(--color-subtitulo);
+  background-color: var(--color-fondo-alternativo);
+  font-size: 1.625rem;
+  text-align: center;
+  border-radius: 1.15dvh;
+  margin: 5.75dvh 0  4.31dvh 0;
+  padding: 1.15dvh;
+}
+
+.contenedor-equipo {
+  margin:  3.59dvh;
+  display: flex;
+  justify-content: center;
+  gap: 2.87dvh;
+  overflow-x: auto;
+  padding: 2.87dvh;
+}
+
+.card-equipo {
+  flex: 0 0 36dvh;
+  background-color: var(--color-cards);
+  border-radius: 1.72dvh;
+  text-align: center;
+  padding: 2.87dvh;
+  box-shadow: var(--color-box-shadow);
+}
+
+.card-equipo img {
+  width: 15dvh;
+  height: 21.5dvh;
+  border-radius: 1.72dvh;
+  margin-bottom: 1.438dvh;
+  object-fit: cover;
+}
+
+.card-equipo h3 {
+  color: var(--color-titulo);
+}
+
+.card-equipo article h4 {
+  color: var(--color-subtitulo);
+  margin-top: 1.15dvh;
+}
+
+.card-equipo article p {
+  color: var(--color-texto);
+  font-size: 1rem;
+  margin: 1.438dvh 0;
+}
+
+.contenedor-volver {
+  text-align: center;
+  margin:  4.31dvh 0;
+}

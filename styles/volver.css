@@ -1,0 +1,11 @@
+.volver {
+  color: var(color-texto-alternativo);
+  border: 0.1438dvh solid var(--color-destacados);
+  padding: 1.438dvh;
+  font-size: large;
+  border-radius: 2.3dvh;
+}
+
+.volver a {
+  text-decoration: none;
+}

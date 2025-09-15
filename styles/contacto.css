@@ -1,0 +1,77 @@
+.contacto-pagina {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-fondo);
+  display: flex;
+  flex-direction: column;
+}
+#contacto-header {
+  width: 69dvh;
+  text-align: center;
+}
+
+.titulo {
+  margin: 1rem;
+}
+.formulario {
+  border: 1px solid var(--color-destacados);
+  width: 69dvh;
+  height: 115dvh;
+  border-radius: 2.3dvh;
+  background-color: var(--color-fondo-alternativo);
+  margin-bottom: 2.3dvh;
+  position: relative;
+  padding: 2.3dvh;
+}
+
+.formulario__leyenda {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.formulario__informacion {
+  margin:  1.15dvh 0dvh;
+}
+
+.formulario__input {
+  width:  28.77dvh;
+  border-radius: 0.575dvh;
+  border-width: 0.143dvh;
+  padding-left: 0.431dvh;
+  padding-bottom: 0.431dvh;
+}
+.formulario__datos {
+  border: 0.143dvh solid var(--color-destacados);
+  padding: 2.3dvh;
+  margin: 2.3dvh;
+  border-radius: 2.3dvh;
+}
+
+.formulario__comentarios {
+  border: 0.143dvh solid var(--color-destacados);
+  padding: 2.3dvh;
+  margin: 25px 2.3dvh 2.3dvh 2.3dvh;
+  border-radius: 2.3dvh;
+}
+
+#mensaje {
+  border-radius: 8px;
+  padding: 6px;
+  border: 0.143dvh solid;
+}
+
+.formulario__btn {
+  border: 0.143dvh solid var(--color-destacados);
+  position: absolute;
+  padding: 1.438dvh;
+  font-size: large;
+  border-radius: 2.3dvh;
+  bottom: 0.575dvh;
+  right: 0.575dvh;
+}
+
+.contenedor-boton-volver {
+  width: 40%;
+  text-align: center;
+}
