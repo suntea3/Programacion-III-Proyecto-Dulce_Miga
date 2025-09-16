@@ -9,4 +9,5 @@
   color: var(--color-primario-texto);
   list-style: none;
   text-decoration: none;
+  scroll-behavior: smooth;
 }

@@ -63,6 +63,9 @@
 
 .formulario__btn {
   border: 0.143dvh solid var(--color-destacados);
+  color: var(--color-texto-alternativo);
+  background-color: var(--color-fondo-alternativo);
+  font-weight: bold;
   position: absolute;
   padding: 1.438dvh;
   font-size: large;
