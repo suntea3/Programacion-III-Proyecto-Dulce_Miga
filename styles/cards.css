@@ -63,7 +63,6 @@
 
 @media (width <= 350px) {
   .card__imagen-contenedor {
-    border: 1px solid red;
     height: 30dvh;
   }
 
