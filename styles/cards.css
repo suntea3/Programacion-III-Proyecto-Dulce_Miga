@@ -9,7 +9,15 @@
   flex-direction: column;
   position: relative;
   box-shadow: var(--color-box-shadow);
+  transition: all 0.3s ease-in-out;
 }
+
+.card:hover {
+  transform: translateY(-4px);
+  transform: scale(1.04);
+  transition: all 0.3s ease-in-out;
+}
+
 .card__contenedor {
   display: flex;
   flex-wrap: wrap;

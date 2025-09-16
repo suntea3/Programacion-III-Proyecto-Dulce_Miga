@@ -2,14 +2,24 @@
 
 .titulo {
   margin-top: 2.87dvh;
-  margin-bottom: 8.63dvh;
   text-align: center;
+  padding: 3dvh;
+  background-color: var(--color-fondo-alternativo);
+  border-radius: 1.72dvh;
+  font-style: italic;
+  box-shadow: var(--color-box-shadow);
+  margin-bottom: 1rem;
+}
+
+#titulo-principal {
+  margin-bottom: 3rem;
 }
 .contenedor-nombre-logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0dvh 1.72dvh;
+  border-radius: 1.72dvh;
 }
 .imagen {
   width: 21.5dvh;
@@ -35,7 +45,9 @@
 }
 
 .navegacion__links a:hover {
-  border-bottom: 0.287dvh solid var(--color-destacados);
+  border-bottom: 0.24dvh solid #202020;
+  color: #202020;
+  transition: all 0.3s ease-in-out;
 }
 
 @media (width <= 600px) {
