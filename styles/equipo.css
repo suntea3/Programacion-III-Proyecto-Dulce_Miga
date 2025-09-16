@@ -21,12 +21,12 @@
   font-size: 1.625rem;
   text-align: center;
   border-radius: 1.15dvh;
-  margin: 5.75dvh 0  4.31dvh 0;
+  margin: 5.75dvh 0 4.31dvh 0;
   padding: 1.15dvh;
 }
 
 .contenedor-equipo {
-  margin:  3.59dvh;
+  margin: 3.59dvh;
   display: flex;
   justify-content: flex-start;
   gap: 2.87dvh;
@@ -68,7 +68,7 @@
 
 .contenedor-volver {
   text-align: center;
-  margin:  4.31dvh 0;
+  margin: 4.31dvh 0;
 }
 
 @media (width <= 390px) {

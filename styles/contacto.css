@@ -77,7 +77,7 @@
 }
 
 @media (width <= 390px) {
-  #nombre-logo-contacto{
+  #nombre-logo-contacto {
     font-size: 1.1rem;
   }
   .formulario {
