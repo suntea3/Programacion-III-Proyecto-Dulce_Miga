@@ -15,7 +15,7 @@
 
 .formulario {
   border: 1px solid var(--color-destacados);
-  height: 120dvh;
+  height: 140dvh;
   border-radius: 2.3dvh;
   background-color: var(--color-fondo-alternativo);
   margin-bottom: 2.3dvh;
@@ -89,7 +89,7 @@
   }
 
   .formulario {
-    height: 125dvh;
+    height: 145dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -101,7 +101,6 @@
   .formulario__comentarios {
     position: absolute;
     bottom: 10dvh;
-
     margin: 0;
   }
 
@@ -124,7 +123,7 @@
 
 @media (width > 390px) and (width <= 515px) {
   .formulario {
-    height: 120dvh;
+    height: 145dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -135,7 +134,7 @@
   }
   .formulario__comentarios {
     position: absolute;
-    bottom: 8dvh;
+    bottom: 12dvh;
 
     margin: 0;
   }
