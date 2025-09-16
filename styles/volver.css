@@ -1,14 +1,16 @@
 .volver {
-  color: var(color-texto-alternativo);
-  border: 0.1438dvh solid var(--color-destacados);
+  color: var(--color-texto-alternativo);
+  background-color: var(--color-fondo-alternativo);
+  font-weight: bold;
+  border: 0.1dvh solid var(--color-destacados);
   padding: 1.438dvh;
   font-size: large;
   border-radius: 2.3dvh;
+  transition: all 0.3s ease-in-out;
 }
 
-.volver a:hover {
-  border-bottom: 0.24dvh solid #202020;
-  color: #202020;
+.volver:hover {
+  color: var(--color-fondo-alternativo);
+  background-color: var(--color-destacados);
   transition: all 0.3s ease-in-out;
-  text-decoration: none;
 }
