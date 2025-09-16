@@ -78,7 +78,9 @@
   .banners__contenedor {
     display: none;
   }
-
+  .servicios__card{
+    height: 90dvh;
+  }
   .servicios__card-imagen-contenedor {
     height: 30dvh;
   }
@@ -88,7 +90,7 @@
   }
 
   #catering__card {
-    height: 145gidvh;
+    height: 145dvh;
   }
 }
 @media (width > 390px) and (width <= 515px) {
@@ -105,7 +107,7 @@
   }
 
   #catering__card {
-    height: 140dvh;
+    height: 180dvh;
     padding-left: 5dvh;
     padding-right: 5dvh;
   }
