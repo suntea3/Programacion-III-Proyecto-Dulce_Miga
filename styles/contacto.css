@@ -30,6 +30,7 @@
 
 .formulario__informacion {
   margin: 1.15dvh 0dvh;
+  resize: none;
 }
 
 .formulario__input {
