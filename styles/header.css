@@ -34,7 +34,9 @@
   font-weight: bold;
   width: 100%;
 }
-
+#navegacion-contacto {
+  border-radius: 1.72dvh;
+}
 .navegacion__links {
   display: flex;
   justify-content: space-around;
