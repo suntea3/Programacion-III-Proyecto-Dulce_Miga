@@ -80,7 +80,6 @@
   .formulario {
     width: 40dvh;
     height: 125dvh;
-    margin-left: 15dvh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
