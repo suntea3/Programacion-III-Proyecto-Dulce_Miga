@@ -6,6 +6,9 @@
   border-radius: 2.3dvh;
 }
 
-.volver a {
+.volver a:hover {
+  border-bottom: 0.24dvh solid #202020;
+  color: #202020;
+  transition: all 0.3s ease-in-out;
   text-decoration: none;
 }

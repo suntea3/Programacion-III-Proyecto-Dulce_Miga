@@ -6,9 +6,8 @@
   padding: 3dvh;
   background-color: var(--color-fondo-alternativo);
   border-radius: 1.72dvh;
-  font-style: italic;
-  box-shadow: var(--color-box-shadow);
   margin-bottom: 1rem;
+  border: 0.143dvh solid var(--color-destacados);
 }
 
 #titulo-principal {
@@ -24,10 +23,20 @@
 .imagen {
   width: 21.5dvh;
   height: 21.5dvh;
+  animation: mover 3s infinite alternate;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-0.5dvh);
+  }
 }
 
 .navegacion {
-  border: 0.143dvh solid black;
+  border: 0.143dvh solid var(--color-destacados);
   background-color: var(--color-fondo-alternativo);
   padding: 1.15dvh 0dvh;
   font-size: 1.5rem;
@@ -42,7 +51,7 @@
   justify-content: space-around;
   list-style: none;
 }
-.navegacion__links a {
+/*.navegacion__links a {
   text-decoration: none;
 }
 
@@ -50,6 +59,31 @@
   border-bottom: 0.24dvh solid #202020;
   color: #202020;
   transition: all 0.3s ease-in-out;
+}*/
+ ul li a {
+  position: relative;
+  overflow: hidden;
+  color: var(--color-titulo);
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+}
+ul li a::after {
+
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: var(--color-titulo);
+  width: 0;
+  transition: width 0.4s ease;
+}
+li{
+  margin: 0.5rem 0rem;
+}
+
+ ul li a:hover::after {
+  width: 100%;
 }
 
 @media (width <= 600px) {
